@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Survey Form</title>
+</head>
+<style>
+    .in_text1{
+        font-size: 1.4rem;
+        font-weight:lighter;
+    }
+    .input1{
+        font-size:1.06rem;
+        height:2rem;
+        width:95%;
+        margin-top:1.1rem;
+        padding:0% 3%;
+    }
+    .comment{
+        height: 5rem;
+    }
+
+    button{
+        background:rgb(32, 216, 127);
+        border:0;
+        margin-bottom: 2rem;
+    }
+
+
+</style>
+<body style="background:rgb(32, 216, 127); text-align:center; align-items: center;" >
+    <h1> <big>Geeks For Geeks Survey Form</big></h1>
+    <div style="background:white; margin: 5% 26%;" >
+        <form style="padding:10px 30px ; align-items:left;text-align:left;">
+            <h5 class="in_text1">
+                <label for="name">Name</label><br>
+                <input class="input1" type="text" placeholder="Enter Your Name">
+            </h5>
+            <h5 class="in_text1">
+                <label for="email">Email</label><br>
+                <input class="input1" type="email" placeholder="Enter Your Email id">
+            </h5>
+            <h5 class="in_text1">
+                <label for="age">Age</label><br>
+                <input class="input1" type="number" placeholder="Enter your Age">
+            </h5>
+
+            <h5 class="in_text1">
+                <label >Which option describes you ?</label><br>
+                <select class="input1">
+                    <option>Student</option>
+                    <option>Intern </option>
+                    <option>Professional</option>
+                    <option>others</option>
+                </select>
+            </h5>
+
+            <h5 class="in_text1">
+                <label >Would you recommend GeeksforGeeks to a friend?</label><br><br>
+                <input  name="a" type="radio" value="Yes">Yes<br>
+                <input  name="a" type="radio" value="No">No<br>
+                <input  name="a" type="radio" value="maybe">Maybe<br>
+            </h5>
+            <h5 class="in_text1">
+                <label >Languages and Frameworks known (Check all that apply)</label><br><br>
+                <input  name="a" type="checkbox" >C<br>
+                <input  name="a" type="checkbox" >C++<br>
+                <input  name="a" type="checkbox">C#<br>
+                <input  name="a" type="checkbox">Java<br>
+                <input  name="a" type="checkbox" >Python<br>
+                <input  name="a" type="checkbox" >JavaScript<br>
+                <input  name="a" type="checkbox" >React<br>
+                <input  name="a" type="checkbox" >Angular<br>
+                <input  name="a" type="checkbox">Django
+            </h5>
+            
+            <h5 class="in_text1">
+                <label >Any comments or suggestions-</label><br>
+                <textarea class="input1 comment" placeholder="Enter your comment here">
+                </textarea>
+            </h5>
+
+            <button class="input1">
+                Submit
+            </button>
+
+
+        </form>
+    </div>
+
+    
+</body>
+</html>
